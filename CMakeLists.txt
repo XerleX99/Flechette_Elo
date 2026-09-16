@@ -13,6 +13,12 @@ find_package(Qt6 COMPONENTS Widgets REQUIRED)
 
 add_executable(ScoreBoard
     main.cpp
+    include/scoreboardparty.h
+    source/scoreboardparty.cpp
+    include/newparty.h
+    source/newparty.cpp
+    include/newplayer.h
+    source/newplayer.cpp
     ui/ScoreBoardParty.ui
     ui/NewParty.ui
     ui/NewPlayer.ui

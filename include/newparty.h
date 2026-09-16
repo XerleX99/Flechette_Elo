@@ -1,0 +1,16 @@
+#pragma once
+#include <QMainWindow>
+#include "../ui/ui_NewParty.h"
+
+class NewParty : public QMainWindow {
+    Q_OBJECT
+public:
+    explicit NewParty(QWidget *parent = nullptr);
+
+private slots:
+    void onAjouterJoueur();
+    void onInscrireJoueur();
+
+private:
+    Ui::NewParty *ui;
+};
