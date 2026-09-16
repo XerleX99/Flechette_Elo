@@ -445,7 +445,27 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "C:/jeu de flechette/build/ScoreBoard_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "ScoreBoard_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"C:/jeu de flechette/include/newparty.h",
+			"MU",
+			"6YEA5652QU/moc_newparty.cpp",
+			null
+		],
+		[
+			"C:/jeu de flechette/include/newplayer.h",
+			"MU",
+			"6YEA5652QU/moc_newplayer.cpp",
+			null
+		],
+		[
+			"C:/jeu de flechette/include/scoreboardparty.h",
+			"MU",
+			"6YEA5652QU/moc_scoreboardparty.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "C:/jeu de flechette/build/ScoreBoard_autogen/include",
 	"MOC_COMPILATION_FILE" : "C:/jeu de flechette/build/ScoreBoard_autogen/mocs_compilation.cpp",
@@ -517,7 +537,10 @@
 	"SETTINGS_FILE" : "C:/jeu de flechette/build/CMakeFiles/ScoreBoard_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/jeu de flechette/main.cpp", "MU", null ]
+		[ "C:/jeu de flechette/main.cpp", "MU", null ],
+		[ "C:/jeu de flechette/source/newparty.cpp", "MU", null ],
+		[ "C:/jeu de flechette/source/newplayer.cpp", "MU", null ],
+		[ "C:/jeu de flechette/source/scoreboardparty.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

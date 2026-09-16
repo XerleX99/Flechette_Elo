@@ -1,6 +1,5 @@
-CMakeFiles/ScoreBoard.dir/ScoreBoard_autogen/mocs_compilation.cpp.obj: \
- C:\jeu\ de\ flechette\build\ScoreBoard_autogen\mocs_compilation.cpp \
- C:\jeu\ de\ flechette\build\ScoreBoard_autogen\6YEA5652QU/moc_newparty.cpp \
+CMakeFiles/ScoreBoard.dir/source/newparty.cpp.obj: \
+ C:\jeu\ de\ flechette\source\newparty.cpp \
  C:/jeu\ de\ flechette/include/newparty.h \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qmainwindow.h \
@@ -443,23 +442,7 @@ CMakeFiles/ScoreBoard.dir/ScoreBoard_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qstatusbar.h \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/QWidget \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qtmochelpers.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qtmocconstants.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/q20algorithm.h \
- C:\jeu\ de\ flechette\build\ScoreBoard_autogen\6YEA5652QU/moc_newplayer.cpp \
  C:/jeu\ de\ flechette/include/newplayer.h \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/QWidget \
  C:/jeu\ de\ flechette/ui/ui_NewPlayer.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/QHBoxLayout \
- C:\jeu\ de\ flechette\build\ScoreBoard_autogen\6YEA5652QU/moc_scoreboardparty.cpp \
- C:/jeu\ de\ flechette/include/scoreboardparty.h \
- C:/jeu\ de\ flechette/ui/ui_ScoreBoardParty.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/QListView \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qlistview.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qabstractitemview.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qitemselectionmodel.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/QListWidget \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qlistwidget.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/QScrollArea \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qscrollarea.h
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/QHBoxLayout

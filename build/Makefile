@@ -202,6 +202,78 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScoreBoard.dir\build.make CMakeFiles/ScoreBoard.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+source/newparty.obj: source/newparty.cpp.obj
+.PHONY : source/newparty.obj
+
+# target to build an object file
+source/newparty.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScoreBoard.dir\build.make CMakeFiles/ScoreBoard.dir/source/newparty.cpp.obj
+.PHONY : source/newparty.cpp.obj
+
+source/newparty.i: source/newparty.cpp.i
+.PHONY : source/newparty.i
+
+# target to preprocess a source file
+source/newparty.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScoreBoard.dir\build.make CMakeFiles/ScoreBoard.dir/source/newparty.cpp.i
+.PHONY : source/newparty.cpp.i
+
+source/newparty.s: source/newparty.cpp.s
+.PHONY : source/newparty.s
+
+# target to generate assembly for a file
+source/newparty.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScoreBoard.dir\build.make CMakeFiles/ScoreBoard.dir/source/newparty.cpp.s
+.PHONY : source/newparty.cpp.s
+
+source/newplayer.obj: source/newplayer.cpp.obj
+.PHONY : source/newplayer.obj
+
+# target to build an object file
+source/newplayer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScoreBoard.dir\build.make CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.obj
+.PHONY : source/newplayer.cpp.obj
+
+source/newplayer.i: source/newplayer.cpp.i
+.PHONY : source/newplayer.i
+
+# target to preprocess a source file
+source/newplayer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScoreBoard.dir\build.make CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.i
+.PHONY : source/newplayer.cpp.i
+
+source/newplayer.s: source/newplayer.cpp.s
+.PHONY : source/newplayer.s
+
+# target to generate assembly for a file
+source/newplayer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScoreBoard.dir\build.make CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.s
+.PHONY : source/newplayer.cpp.s
+
+source/scoreboardparty.obj: source/scoreboardparty.cpp.obj
+.PHONY : source/scoreboardparty.obj
+
+# target to build an object file
+source/scoreboardparty.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScoreBoard.dir\build.make CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.obj
+.PHONY : source/scoreboardparty.cpp.obj
+
+source/scoreboardparty.i: source/scoreboardparty.cpp.i
+.PHONY : source/scoreboardparty.i
+
+# target to preprocess a source file
+source/scoreboardparty.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScoreBoard.dir\build.make CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.i
+.PHONY : source/scoreboardparty.cpp.i
+
+source/scoreboardparty.s: source/scoreboardparty.cpp.s
+.PHONY : source/scoreboardparty.s
+
+# target to generate assembly for a file
+source/scoreboardparty.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ScoreBoard.dir\build.make CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.s
+.PHONY : source/scoreboardparty.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -219,6 +291,15 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... source/newparty.obj
+	@echo ... source/newparty.i
+	@echo ... source/newparty.s
+	@echo ... source/newplayer.obj
+	@echo ... source/newplayer.i
+	@echo ... source/newplayer.s
+	@echo ... source/scoreboardparty.obj
+	@echo ... source/scoreboardparty.i
+	@echo ... source/scoreboardparty.s
 .PHONY : help
 
 

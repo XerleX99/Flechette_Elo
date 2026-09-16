@@ -179,44 +179,35 @@ CMakeFiles/ScoreBoard.dir/main.cpp.obj: C:\jeu\ de\ flechette\main.cpp \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/fstream.tcc \
  C:/msys64/ucrt64/include/c++/16.1.0/sstream \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/sstream.tcc \
- C:/jeu\ de\ flechette/build/ScoreBoard_autogen/include/ui/ui_ScoreBoardParty.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/QVariant \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qvariant.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qatomic.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qbasicatomic.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qatomic_cxx11.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qgenericatomic.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qcompilerdetection.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qprocessordetection.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qsystemdetection.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/QApplication \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qapplication.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ C:/Qt/6.11.2/mingw_64/include/QtGui/qtguiglobal.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qglobal.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/utility \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_relops.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/cstdint \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdint.h \
+ C:/msys64/ucrt64/include/stdint.h C:/msys64/ucrt64/include/assert.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdbool.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qtcoreglobal.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qtversionchecks.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qtconfiginclude.h \
  C:/msys64/ucrt64/include/c++/16.1.0/version \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qconfig.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qtcore-config.h \
- C:/msys64/ucrt64/include/c++/16.1.0/utility \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_relops.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qtconfigmacros.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qtdeprecationdefinitions.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qtversionchecks.h \
- C:/msys64/ucrt64/include/assert.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qtypes.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qassert.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qcompilerdetection.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qprocessordetection.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qsystemdetection.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qtcoreexports.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qtdeprecationmarkers.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qtclasshelpermacros.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qtnoop.h \
- C:/msys64/ucrt64/include/c++/16.1.0/cstdint \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdint.h \
- C:/msys64/ucrt64/include/stdint.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qyieldcpu.h \
- C:/msys64/ucrt64/include/c++/16.1.0/atomic \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/atomic_base.h \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/atomic_lockfree_defines.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qcompare.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qglobal.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdbool.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qtcoreglobal.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qtpreprocessorsupport.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qassert.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qtnoop.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qtypes.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qtversion.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qtypeinfo.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qcontainerfwd.h \
@@ -232,6 +223,14 @@ CMakeFiles/ScoreBoard.dir/main.cpp.obj: C:\jeu\ de\ flechette\main.cpp \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_tempbuf.h \
  C:/msys64/ucrt64/include/c++/16.1.0/pstl/glue_algorithm_defs.h \
  C:/msys64/ucrt64/include/c++/16.1.0/pstl/execution_defs.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qatomic.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qbasicatomic.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qatomic_cxx11.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qgenericatomic.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qyieldcpu.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/atomic \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/atomic_base.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/atomic_lockfree_defines.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qconstructormacros.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qdarwinhelpers.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qexceptionhandling.h \
@@ -254,6 +253,14 @@ CMakeFiles/ScoreBoard.dir/main.cpp.obj: C:\jeu\ de\ flechette\main.cpp \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qtresource.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qttranslation.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qversiontagging.h \
+ C:/Qt/6.11.2/mingw_64/include/QtGui/qtgui-config.h \
+ C:/Qt/6.11.2/mingw_64/include/QtGui/qtguiexports.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qcoreapplication.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qstring.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qchar.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qcompare.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qstdlibdetection.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qcomparehelpers.h \
  C:/msys64/ucrt64/include/c++/16.1.0/functional \
@@ -265,7 +272,7 @@ CMakeFiles/ScoreBoard.dir/main.cpp.obj: C:\jeu\ de\ flechette\main.cpp \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/hashtable_policy.h \
  C:/msys64/ucrt64/include/c++/16.1.0/array \
  C:/msys64/ucrt64/include/c++/16.1.0/compare \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qmetatype.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qstringview.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qbytearray.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qrefcount.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qnamespace.h \
@@ -303,18 +310,7 @@ CMakeFiles/ScoreBoard.dir/main.cpp.obj: C:\jeu\ de\ flechette\main.cpp \
  C:/msys64/ucrt64/include/_mingw_stdarg.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qbytearrayview.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qstringfwd.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qdatastream.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qobjectdefs.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qobjectdefs_impl.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qfunctionaltools_impl.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qchar.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qstringview.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qstringalgorithms.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qiodevicebase.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qscopedpointer.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qfloat16.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qhashfunctions.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qlatin1stringview.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qanystringview.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qutf8stringview.h \
@@ -322,12 +318,30 @@ CMakeFiles/ScoreBoard.dir/main.cpp.obj: C:\jeu\ de\ flechette\main.cpp \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qstringbuilder.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qstringconverter.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qstringconverter_base.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qcoreevent.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qbasictimer.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qabstracteventdispatcher.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qobject.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qobjectdefs.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qobjectdefs_impl.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qfunctionaltools_impl.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qlist.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qhashfunctions.h \
  C:/msys64/ucrt64/include/c++/16.1.0/numeric \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_numeric.h \
  C:/msys64/ucrt64/include/c++/16.1.0/pstl/glue_numeric_defs.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qmath.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qiterator.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qbytearraylist.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qstringlist.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qalgorithms.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/q20bit.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qstringmatcher.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qscopedpointer.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qmetatype.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qdatastream.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qiodevicebase.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qfloat16.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qmath.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qtformat_impl.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qiterable.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qtaggedpointer.h \
@@ -337,50 +351,12 @@ CMakeFiles/ScoreBoard.dir/main.cpp.obj: C:\jeu\ de\ flechette\main.cpp \
  C:/msys64/ucrt64/include/c++/16.1.0/list \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_list.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/list.tcc \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qdebug.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qtextstream.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qcontiguouscache.h \
- C:/msys64/ucrt64/include/c++/16.1.0/climits \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qsharedpointer.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qshareddata.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qsharedpointer_impl.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qobject_impl.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qbindingstorage.h \
  C:/msys64/ucrt64/include/c++/16.1.0/chrono \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/chrono.h \
  C:/msys64/ucrt64/include/c++/16.1.0/ratio \
  C:/msys64/ucrt64/include/c++/16.1.0/ctime \
- C:/msys64/ucrt64/include/c++/16.1.0/set \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_set.h \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_multiset.h \
- C:/msys64/ucrt64/include/c++/16.1.0/unordered_set \
- C:/msys64/ucrt64/include/c++/16.1.0/bits/unordered_set.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qlist.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qiterator.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qbytearraylist.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qstringlist.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qstringmatcher.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qmap.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qshareddata_impl.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qset.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qhash.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qvarlengtharray.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qalloc.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/q23utility.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/q20utility.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qobject.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qobject_impl.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qbindingstorage.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/QApplication \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qapplication.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- C:/Qt/6.11.2/mingw_64/include/QtGui/qtguiglobal.h \
- C:/Qt/6.11.2/mingw_64/include/QtGui/qtgui-config.h \
- C:/Qt/6.11.2/mingw_64/include/QtGui/qtguiexports.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qcoreapplication.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qcoreevent.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qbasictimer.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qabstracteventdispatcher.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qeventloop.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qdeadlinetimer.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qnativeinterface.h \
@@ -389,6 +365,8 @@ CMakeFiles/ScoreBoard.dir/main.cpp.obj: C:\jeu\ de\ flechette\main.cpp \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qwindowdefs_win.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qpoint.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qcheckedint_impl.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/q23utility.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/q20utility.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qsize.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qmargins.h \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qcursor.h \
@@ -399,6 +377,7 @@ CMakeFiles/ScoreBoard.dir/main.cpp.obj: C:\jeu\ de\ flechette\main.cpp \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qcolor.h \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qrgb.h \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qrgba64.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qshareddata.h \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qimage.h \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qpixelformat.h \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qtransform.h \
@@ -411,19 +390,28 @@ CMakeFiles/ScoreBoard.dir/main.cpp.obj: C:\jeu\ de\ flechette\main.cpp \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qguiapplication.h \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qinputmethod.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qlocale.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qvariant.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qdebug.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qtextstream.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qcontiguouscache.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/climits \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qsharedpointer.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qsharedpointer_impl.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/set \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_set.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_multiset.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/unordered_set \
+ C:/msys64/ucrt64/include/c++/16.1.0/bits/unordered_set.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qmap.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qshareddata_impl.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qset.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qhash.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qvarlengtharray.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/qalloc.h \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qguiapplication_platform.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/QGridLayout \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qgridlayout.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qlayout.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qlayoutitem.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qsizepolicy.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qboxlayout.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/QHBoxLayout \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/QListView \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qlistview.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qabstractitemview.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qframe.h \
+ C:\jeu\ de\ flechette\include/scoreboardparty.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/QMainWindow \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qwidget.h \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qaction.h \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qkeysequence.h \
@@ -435,6 +423,22 @@ CMakeFiles/ScoreBoard.dir/main.cpp.obj: C:\jeu\ de\ flechette\main.cpp \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qfontmetrics.h \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qfontinfo.h \
  C:/Qt/6.11.2/mingw_64/include/QtGui/qfontvariableaxis.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qsizepolicy.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qtabwidget.h \
+ C:/jeu\ de\ flechette/ui/ui_ScoreBoardParty.h \
+ C:/Qt/6.11.2/mingw_64/include/QtCore/QVariant \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/QApplication \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/QGridLayout \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qgridlayout.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qlayout.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qlayoutitem.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qboxlayout.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/QHBoxLayout \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/QListView \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qlistview.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qabstractitemview.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/qframe.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qabstractitemmodel.h \
  C:/Qt/6.11.2/mingw_64/include/QtCore/qitemselectionmodel.h \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
@@ -446,12 +450,10 @@ CMakeFiles/ScoreBoard.dir/main.cpp.obj: C:\jeu\ de\ flechette\main.cpp \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qabstractslider.h \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qstyle.h \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qtabbar.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qtabwidget.h \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qrubberband.h \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/QListWidget \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qlistwidget.h \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/QMainWindow \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/QPushButton \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qpushbutton.h \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qabstractbutton.h \
@@ -459,16 +461,4 @@ CMakeFiles/ScoreBoard.dir/main.cpp.obj: C:\jeu\ de\ flechette\main.cpp \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qscrollarea.h \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/QStatusBar \
  C:/Qt/6.11.2/mingw_64/include/QtWidgets/qstatusbar.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/QWidget \
- C:/jeu\ de\ flechette/build/ScoreBoard_autogen/include/ui/ui_NewParty.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/QComboBox \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qcombobox.h \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/QLineEdit \
- C:/Qt/6.11.2/mingw_64/include/QtWidgets/qlineedit.h \
- C:/Qt/6.11.2/mingw_64/include/QtGui/qtextcursor.h \
- C:/Qt/6.11.2/mingw_64/include/QtGui/qtextdocument.h \
- C:/Qt/6.11.2/mingw_64/include/QtCore/qurl.h \
- C:/Qt/6.11.2/mingw_64/include/QtGui/qtextformat.h \
- C:/Qt/6.11.2/mingw_64/include/QtGui/qpen.h \
- C:/Qt/6.11.2/mingw_64/include/QtGui/qtextoption.h \
- C:/jeu\ de\ flechette/build/ScoreBoard_autogen/include/ui/ui_NewPlayer.h
+ C:/Qt/6.11.2/mingw_64/include/QtWidgets/QWidget

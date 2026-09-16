@@ -11,6 +11,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "ScoreBoard_autogen/timestamp" "custom" "ScoreBoard_autogen/deps"
   "C:/jeu de flechette/build/ScoreBoard_autogen/mocs_compilation.cpp" "CMakeFiles/ScoreBoard.dir/ScoreBoard_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/ScoreBoard.dir/ScoreBoard_autogen/mocs_compilation.cpp.obj.d"
   "C:/jeu de flechette/main.cpp" "CMakeFiles/ScoreBoard.dir/main.cpp.obj" "gcc" "CMakeFiles/ScoreBoard.dir/main.cpp.obj.d"
+  "C:/jeu de flechette/source/newparty.cpp" "CMakeFiles/ScoreBoard.dir/source/newparty.cpp.obj" "gcc" "CMakeFiles/ScoreBoard.dir/source/newparty.cpp.obj.d"
+  "C:/jeu de flechette/source/newplayer.cpp" "CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.obj" "gcc" "CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.obj.d"
+  "C:/jeu de flechette/source/scoreboardparty.cpp" "CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.obj" "gcc" "CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

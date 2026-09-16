@@ -108,16 +108,67 @@ CMakeFiles/ScoreBoard.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ScoreBoard.dir/main.cpp.s"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\jeu de flechette\main.cpp" -o CMakeFiles\ScoreBoard.dir\main.cpp.s
 
+CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.obj: CMakeFiles/ScoreBoard.dir/flags.make
+CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.obj: CMakeFiles/ScoreBoard.dir/includes_CXX.rsp
+CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.obj: C:/jeu\ de\ flechette/source/scoreboardparty.cpp
+CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.obj: CMakeFiles/ScoreBoard.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\jeu de flechette\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.obj -MF CMakeFiles\ScoreBoard.dir\source\scoreboardparty.cpp.obj.d -o CMakeFiles\ScoreBoard.dir\source\scoreboardparty.cpp.obj -c "C:\jeu de flechette\source\scoreboardparty.cpp"
+
+CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\jeu de flechette\source\scoreboardparty.cpp" > CMakeFiles\ScoreBoard.dir\source\scoreboardparty.cpp.i
+
+CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\jeu de flechette\source\scoreboardparty.cpp" -o CMakeFiles\ScoreBoard.dir\source\scoreboardparty.cpp.s
+
+CMakeFiles/ScoreBoard.dir/source/newparty.cpp.obj: CMakeFiles/ScoreBoard.dir/flags.make
+CMakeFiles/ScoreBoard.dir/source/newparty.cpp.obj: CMakeFiles/ScoreBoard.dir/includes_CXX.rsp
+CMakeFiles/ScoreBoard.dir/source/newparty.cpp.obj: C:/jeu\ de\ flechette/source/newparty.cpp
+CMakeFiles/ScoreBoard.dir/source/newparty.cpp.obj: CMakeFiles/ScoreBoard.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\jeu de flechette\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ScoreBoard.dir/source/newparty.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ScoreBoard.dir/source/newparty.cpp.obj -MF CMakeFiles\ScoreBoard.dir\source\newparty.cpp.obj.d -o CMakeFiles\ScoreBoard.dir\source\newparty.cpp.obj -c "C:\jeu de flechette\source\newparty.cpp"
+
+CMakeFiles/ScoreBoard.dir/source/newparty.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ScoreBoard.dir/source/newparty.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\jeu de flechette\source\newparty.cpp" > CMakeFiles\ScoreBoard.dir\source\newparty.cpp.i
+
+CMakeFiles/ScoreBoard.dir/source/newparty.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ScoreBoard.dir/source/newparty.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\jeu de flechette\source\newparty.cpp" -o CMakeFiles\ScoreBoard.dir\source\newparty.cpp.s
+
+CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.obj: CMakeFiles/ScoreBoard.dir/flags.make
+CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.obj: CMakeFiles/ScoreBoard.dir/includes_CXX.rsp
+CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.obj: C:/jeu\ de\ flechette/source/newplayer.cpp
+CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.obj: CMakeFiles/ScoreBoard.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\jeu de flechette\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.obj -MF CMakeFiles\ScoreBoard.dir\source\newplayer.cpp.obj.d -o CMakeFiles\ScoreBoard.dir\source\newplayer.cpp.obj -c "C:\jeu de flechette\source\newplayer.cpp"
+
+CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\jeu de flechette\source\newplayer.cpp" > CMakeFiles\ScoreBoard.dir\source\newplayer.cpp.i
+
+CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\jeu de flechette\source\newplayer.cpp" -o CMakeFiles\ScoreBoard.dir\source\newplayer.cpp.s
+
 # Object files for target ScoreBoard
 ScoreBoard_OBJECTS = \
 "CMakeFiles/ScoreBoard.dir/ScoreBoard_autogen/mocs_compilation.cpp.obj" \
-"CMakeFiles/ScoreBoard.dir/main.cpp.obj"
+"CMakeFiles/ScoreBoard.dir/main.cpp.obj" \
+"CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.obj" \
+"CMakeFiles/ScoreBoard.dir/source/newparty.cpp.obj" \
+"CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.obj"
 
 # External object files for target ScoreBoard
 ScoreBoard_EXTERNAL_OBJECTS =
 
 ScoreBoard.exe: CMakeFiles/ScoreBoard.dir/ScoreBoard_autogen/mocs_compilation.cpp.obj
 ScoreBoard.exe: CMakeFiles/ScoreBoard.dir/main.cpp.obj
+ScoreBoard.exe: CMakeFiles/ScoreBoard.dir/source/scoreboardparty.cpp.obj
+ScoreBoard.exe: CMakeFiles/ScoreBoard.dir/source/newparty.cpp.obj
+ScoreBoard.exe: CMakeFiles/ScoreBoard.dir/source/newplayer.cpp.obj
 ScoreBoard.exe: CMakeFiles/ScoreBoard.dir/build.make
 ScoreBoard.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6Widgets.a
 ScoreBoard.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6Gui.a
@@ -125,7 +176,7 @@ ScoreBoard.exe: C:/Qt/6.11.2/mingw_64/lib/libQt6Core.a
 ScoreBoard.exe: CMakeFiles/ScoreBoard.dir/linkLibs.rsp
 ScoreBoard.exe: CMakeFiles/ScoreBoard.dir/objects1.rsp
 ScoreBoard.exe: CMakeFiles/ScoreBoard.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\jeu de flechette\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ScoreBoard.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\jeu de flechette\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ScoreBoard.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ScoreBoard.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
