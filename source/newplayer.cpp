@@ -1,4 +1,5 @@
 #include "../include/newplayer.h"
+#include "../include/elo_utils.h"
 
 NewPlayer::NewPlayer(QWidget *parent)
     : QWidget(parent), ui(new Ui::Form)
@@ -9,6 +10,6 @@ NewPlayer::NewPlayer(QWidget *parent)
 
 void NewPlayer::onAjouterJoueur()
 {
-    QString nom = ui->lineEdit->text();
-    // ajoute "nom" à ta base de joueurs (ta map C++, puis save_elos())
+    const std::string nom = ui->lineEdit->text().trimmed().toStdString();
+    addNewPlayer(nom);
 }

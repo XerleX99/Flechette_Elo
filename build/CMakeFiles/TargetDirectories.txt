@@ -1,5 +1,0 @@
-C:/jeu de flechette/build/CMakeFiles/ScoreBoard.dir
-C:/jeu de flechette/build/CMakeFiles/edit_cache.dir
-C:/jeu de flechette/build/CMakeFiles/rebuild_cache.dir
-C:/jeu de flechette/build/CMakeFiles/ScoreBoard_autogen_timestamp_deps.dir
-C:/jeu de flechette/build/CMakeFiles/ScoreBoard_autogen.dir

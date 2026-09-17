@@ -1,6 +1,8 @@
 #pragma once
 #include <QMainWindow>
-#include "../ui/ui_ScoreBoardParty.h"
+#include <map>
+#include <string>
+#include "ui_ScoreBoardParty.h"
 
 class ScoreBoardParty : public QMainWindow {
     Q_OBJECT
@@ -13,4 +15,5 @@ private slots:
 
 private:
     Ui::ScoreBoardFlechettes *ui;
+    std::map<std::string, int> database_elos;  // Stocke les élos chargés
 };
