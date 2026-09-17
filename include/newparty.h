@@ -16,4 +16,5 @@ private slots:
 
 private:
     Ui::NewParty *ui;
+    int playerRow = 3;
 };

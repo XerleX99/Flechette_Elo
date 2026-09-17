@@ -104,7 +104,7 @@
      <item row="4" column="0">
       <widget class="QPushButton" name="pushButton_3">
        <property name="text">
-        <string>Add new player</string>
+        <string>Valider la partie</string>
        </property>
       </widget>
      </item>

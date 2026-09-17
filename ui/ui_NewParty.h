@@ -124,7 +124,7 @@ public:
         NewParty->setWindowTitle(QCoreApplication::translate("NewParty", "MainWindow", nullptr));
         pushButton_2->setText(QCoreApplication::translate("NewParty", "Ajouter un joueur", nullptr));
         pushButton->setText(QCoreApplication::translate("NewParty", "Inscrire un nouveau joueur", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("NewParty", "Add new player", nullptr));
+        pushButton_3->setText(QCoreApplication::translate("NewParty", "Valider la partie", nullptr));
         pushButton_4->setText(QCoreApplication::translate("NewParty", "Cancel", nullptr));
     } // retranslateUi
 
