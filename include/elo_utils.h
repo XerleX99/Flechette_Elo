@@ -25,7 +25,7 @@ inline std::map<std::string, int> load_elos(const std::string& filename = "../el
 inline void save_elos(const std::map<std::string, int>& elos, const std::string& filename = "../elos.csv") {
     std::ofstream file(filename);
     for (const auto& [name, elo] : elos) {
-        file << name << "," << elo << ",0\n";
+        file << name << "," << elo << ",0,0\n";
     }
 }
 
@@ -37,7 +37,7 @@ inline void addNewPlayer(const std::string& name, int elo = 1000, int mean = 0, 
 
     std::ofstream file(filename, std::ios::app);
     if (file) {
-        file << name << "," << elo << "," << mean << "\n";
+        file << name << "," << elo << ",0," << mean << "\n";
     }
 }
 
@@ -49,6 +49,87 @@ struct PlayerResult {
     float GainMoyenne; 
 };
 
+inline std::map<std::string, PlayerResult> load_player_stats(
+    const std::string& filename = "../elos.csv")
+{
+    std::map<std::string, PlayerResult> stats;
+    std::ifstream file(filename);
+    std::string line;
+    while (std::getline(file, line)) {
+        std::stringstream ss(line);
+        std::string name;
+        std::string eloText;
+        std::string gamesText;
+        std::string averageText;
+        std::getline(ss, name, ',');
+        std::getline(ss, eloText, ',');
+        std::getline(ss, gamesText, ',');
+        std::getline(ss, averageText, ',');
+
+        if (!name.empty() && !eloText.empty()) {
+            stats[name] = {name, 0,
+                           gamesText.empty() ? 0 : std::stoi(gamesText),
+                           averageText.empty() ? 0.0F : std::stof(averageText)};
+        }
+    }
+    return stats;
+}
+
+inline void save_player_stats(
+    const std::map<std::string, PlayerResult>& stats,
+    const std::map<std::string, int>& elos,
+    const std::string& filename = "../elos.csv")
+{
+    std::ofstream file(filename);
+    for (const auto& [name, elo] : elos) {
+        const auto stat = stats.find(name);
+        const int gamesPlayed = stat == stats.end() ? 0 : stat->second.games_played;
+        const float gainAverage = stat == stats.end() ? 0.0F : stat->second.GainMoyenne;
+        file << name << "," << elo << "," << gamesPlayed << "," << gainAverage << "\n";
+    }
+}
+
+inline std::vector<std::vector<PlayerResult>> load_parties(
+    const std::string& filename = "../Parties.csv")
+{
+    std::vector<std::vector<PlayerResult>> parties;
+    std::ifstream file(filename);
+    if (!file) {
+        return parties;
+    }
+
+    std::vector<PlayerResult> currentParty;
+    std::string line;
+    while (std::getline(file, line)) {
+        if (line.empty()) {
+            if (!currentParty.empty()) {
+                parties.push_back(currentParty);
+                currentParty.clear();
+            }
+            continue;
+        }
+
+        std::stringstream ss(line);
+        std::string name;
+        std::string rankText;
+        std::string gainText;
+        std::getline(ss, name, ',');
+        std::getline(ss, rankText, ',');
+        std::getline(ss, gainText, ',');
+
+        if (!name.empty() && !rankText.empty()) {
+            currentParty.push_back({name, std::stoi(rankText), 0,
+                                    gainText.empty() ? 0.0F : std::stof(gainText)});
+        }
+    }
+
+    if (!currentParty.empty()) {
+        parties.push_back(currentParty);
+    }
+
+    return parties;
+}
+
 
 
 
@@ -58,14 +139,14 @@ struct PlayerResult {
  * 
  * @param current_elos Map contenant les Elos actuels { "Nom": score }
  * @param results Liste des joueurs avec leur rang final dans la partie
- * @param K_base Le facteur d'impact de base (par défaut 32.0)
+ * @param K_base Le facteur d'impact de base (par défaut 50.0)
  * @return Map contenant les nouveaux scores Elo mis à jour
  */
 
 inline std::map<std::string, int> update_multiplayer_elo(
     const std::map<std::string, int>& current_elos, 
     const std::vector<PlayerResult>& results, 
-    double K_base = 32.0) 
+    double K_base = 50.0) 
 {
     int N = results.size();
     std::map<std::string, int> new_elos = current_elos;
@@ -122,3 +203,4 @@ inline std::map<std::string, int> update_multiplayer_elo(
 
     return new_elos;
 }
+

@@ -29,21 +29,21 @@ public:
     QGridLayout *gridLayout_2;
     QLineEdit *lineEdit;
     QComboBox *comboBox;
-    QPushButton *pushButton_2;
+    QPushButton *AjoutJoueur;
     QLineEdit *lineEdit_3;
-    QPushButton *pushButton;
+    QPushButton *AddNewPlayer;
     QLineEdit *lineEdit_2;
     QComboBox *comboBox_3;
     QComboBox *comboBox_2;
-    QPushButton *pushButton_3;
-    QPushButton *pushButton_4;
+    QPushButton *ValidateParty;
+    QPushButton *Cancel;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *NewParty)
     {
         if (NewParty->objectName().isEmpty())
             NewParty->setObjectName("NewParty");
-        NewParty->resize(432, 203);
+        NewParty->resize(429, 206);
         centralwidget = new QWidget(NewParty);
         centralwidget->setObjectName("centralwidget");
         gridLayoutWidget_2 = new QWidget(centralwidget);
@@ -65,10 +65,10 @@ public:
 
         gridLayout_2->addWidget(comboBox, 0, 0, 1, 1);
 
-        pushButton_2 = new QPushButton(gridLayoutWidget_2);
-        pushButton_2->setObjectName("pushButton_2");
+        AjoutJoueur = new QPushButton(gridLayoutWidget_2);
+        AjoutJoueur->setObjectName("AjoutJoueur");
 
-        gridLayout_2->addWidget(pushButton_2, 3, 0, 1, 1);
+        gridLayout_2->addWidget(AjoutJoueur, 3, 0, 1, 1);
 
         lineEdit_3 = new QLineEdit(gridLayoutWidget_2);
         lineEdit_3->setObjectName("lineEdit_3");
@@ -76,10 +76,10 @@ public:
 
         gridLayout_2->addWidget(lineEdit_3, 2, 1, 1, 1);
 
-        pushButton = new QPushButton(gridLayoutWidget_2);
-        pushButton->setObjectName("pushButton");
+        AddNewPlayer = new QPushButton(gridLayoutWidget_2);
+        AddNewPlayer->setObjectName("AddNewPlayer");
 
-        gridLayout_2->addWidget(pushButton, 3, 1, 1, 1);
+        gridLayout_2->addWidget(AddNewPlayer, 3, 1, 1, 1);
 
         lineEdit_2 = new QLineEdit(gridLayoutWidget_2);
         lineEdit_2->setObjectName("lineEdit_2");
@@ -99,15 +99,15 @@ public:
 
         gridLayout_2->addWidget(comboBox_2, 1, 0, 1, 1);
 
-        pushButton_3 = new QPushButton(gridLayoutWidget_2);
-        pushButton_3->setObjectName("pushButton_3");
+        ValidateParty = new QPushButton(gridLayoutWidget_2);
+        ValidateParty->setObjectName("ValidateParty");
 
-        gridLayout_2->addWidget(pushButton_3, 4, 0, 1, 1);
+        gridLayout_2->addWidget(ValidateParty, 4, 0, 1, 1);
 
-        pushButton_4 = new QPushButton(gridLayoutWidget_2);
-        pushButton_4->setObjectName("pushButton_4");
+        Cancel = new QPushButton(gridLayoutWidget_2);
+        Cancel->setObjectName("Cancel");
 
-        gridLayout_2->addWidget(pushButton_4, 4, 1, 1, 1);
+        gridLayout_2->addWidget(Cancel, 4, 1, 1, 1);
 
         NewParty->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(NewParty);
@@ -122,10 +122,10 @@ public:
     void retranslateUi(QMainWindow *NewParty)
     {
         NewParty->setWindowTitle(QCoreApplication::translate("NewParty", "MainWindow", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("NewParty", "Ajouter un joueur", nullptr));
-        pushButton->setText(QCoreApplication::translate("NewParty", "Inscrire un nouveau joueur", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("NewParty", "Valider la partie", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("NewParty", "Cancel", nullptr));
+        AjoutJoueur->setText(QCoreApplication::translate("NewParty", "Ajouter un joueur", nullptr));
+        AddNewPlayer->setText(QCoreApplication::translate("NewParty", "Inscrire un nouveau joueur", nullptr));
+        ValidateParty->setText(QCoreApplication::translate("NewParty", "Valider la partie", nullptr));
+        Cancel->setText(QCoreApplication::translate("NewParty", "Cancel", nullptr));
     } // retranslateUi
 
 };

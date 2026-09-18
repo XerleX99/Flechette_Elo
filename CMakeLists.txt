@@ -38,6 +38,13 @@ add_custom_command(
 )
 
 add_executable(ScoreBoard
+    ui/ScoreBoardParty.ui
+    ui/NewParty.ui
+    ui/NewPlayer.ui
+    resources.qrc
+    "${UI_DIRECTORY}/ui_ScoreBoardParty.h"
+    "${UI_DIRECTORY}/ui_NewParty.h"
+    "${UI_DIRECTORY}/ui_NewPlayer.h"
     main.cpp
     include/scoreboardparty.h
     include/newplayer.h
@@ -47,13 +54,6 @@ add_executable(ScoreBoard
     source/scoreboardparty.cpp
     source/newparty.cpp
     source/newplayer.cpp
-
-    ui/ScoreBoardParty.ui
-    ui/NewParty.ui
-    ui/NewPlayer.ui
-    "${UI_DIRECTORY}/ui_ScoreBoardParty.h"
-    "${UI_DIRECTORY}/ui_NewParty.h"
-    "${UI_DIRECTORY}/ui_NewPlayer.h"
 )
 
 target_link_libraries(ScoreBoard PRIVATE Qt6::Widgets)
@@ -62,6 +62,9 @@ target_include_directories(ScoreBoard PRIVATE
 )
 
 if(WIN32)
+    target_link_options(ScoreBoard PRIVATE "-mwindows")
+    target_sources(ScoreBoard PRIVATE app.rc)
+
     find_program(WINDEPLOYQT_EXECUTABLE
         NAMES windeployqt.exe windeployqt
         HINTS "${CMAKE_PREFIX_PATH}/bin"

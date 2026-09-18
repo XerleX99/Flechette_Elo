@@ -13,12 +13,13 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QHBoxLayout>
-#include <QtWidgets/QListView>
+#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QListWidget>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QScrollArea>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTableView>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -32,7 +33,7 @@ public:
     QScrollArea *scrollArea;
     QWidget *scrollAreaWidgetContents;
     QListWidget *listWidget;
-    QListView *listView;
+    QTableView *eloTableView;
     QHBoxLayout *horizontalLayout_4;
     QPushButton *pushButton;
     QPushButton *pushButton_2;
@@ -64,10 +65,10 @@ public:
 
         gridLayout->addWidget(scrollArea, 0, 1, 5, 1);
 
-        listView = new QListView(gridLayoutWidget);
-        listView->setObjectName("listView");
+        eloTableView = new QTableView(gridLayoutWidget);
+        eloTableView->setObjectName("eloTableView");
 
-        gridLayout->addWidget(listView, 4, 0, 1, 1);
+        gridLayout->addWidget(eloTableView, 4, 0, 1, 1);
 
         horizontalLayout_4 = new QHBoxLayout();
         horizontalLayout_4->setObjectName("horizontalLayout_4");

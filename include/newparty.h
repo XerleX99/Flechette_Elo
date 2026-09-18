@@ -1,5 +1,8 @@
 #pragma once
 #include <QMainWindow>
+#include <QComboBox>
+#include <QLineEdit>
+#include <vector>
 #include "../ui/ui_NewParty.h"
 #include "elo_utils.h"
 
@@ -13,8 +16,12 @@ public:
 private slots:
     void onAjouterJoueur();
     void onInscrireJoueur();
+    void onValiderPartie();
+    void Close();
 
 private:
     Ui::NewParty *ui;
     int playerRow = 3;
+    std::vector<QComboBox*> playerComboBoxes;
+    std::vector<QLineEdit*> playerPositions;
 };
